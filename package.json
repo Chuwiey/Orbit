@@ -1,0 +1,30 @@
+{
+  "name": "orbit",
+  "version": "0.0.1",
+  "description": "Contextual asset server",
+  "keywords": [
+    "static",
+    "file",
+    "server",
+    "assets",
+    "cache",
+    "context"
+  ],
+  "repository": "git://github.com/Chuwiey/Orbit.git",
+  "author": "Chuwiey",
+  "dependencies": {
+    "lactate": "latest"
+  },
+  "devDependencies": {
+    "mocha": "1.8.2",
+    "should": "1.2.2"
+  },
+  "main": "index.js",
+  "bin": "bin/orbit",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
